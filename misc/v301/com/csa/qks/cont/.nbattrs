@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<attributes version="1.0">
+   <fileobject name="SatDataToSend.java">
+      <attr name="class_dependency_java.io.Serializable" stringvalue="SatDataToSend"/>
+   </fileobject>
+   <fileobject name="SerializedCanSats.java">
+      <attr name="class_dependency_java.io.Serializable" stringvalue="SerializedCanSats"/>
+   </fileobject>
+</attributes>

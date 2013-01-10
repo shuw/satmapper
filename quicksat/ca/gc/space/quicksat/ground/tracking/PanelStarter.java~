@@ -1,0 +1,27 @@
+/*
+ * PanelThread.java
+ *
+ * Created on April 13, 2002, 11:17 AM
+ */
+
+package ca.gc.space.quicksat.ground.tracking;
+import javax.swing.*;
+//import java.awt.component;
+/**
+ *
+ * @author  User
+ * @version 
+ */
+public class PanelStarter extends Thread{
+    JPanel panel;
+    /** Creates new PanelThread */
+    public PanelStarter(JFrame panel) {
+        super();
+        this.panel = panel;
+    }
+    synchronized public void run() {
+        panel.show();
+        panel.setVisible(true);
+        
+    }
+}

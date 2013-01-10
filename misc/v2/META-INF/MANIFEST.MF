@@ -1,0 +1,170 @@
+Manifest-Version: 1.2
+Name: com/csa/qks/serv/ClientLink.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: dxInR+qa2PXfLecv2RX0+Ch74S8=
+MD5-Digest: oQ3mhtX7nwAiPumm7mHCMg==
+
+
+Name: com/csa/qks/serv/Satellite.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: c6XvierBhUK/RpYbRzcl258JOww=
+MD5-Digest: A1hTdIQnZF2a5KFiww4wqw==
+
+
+Name: science.txt
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: b5+DXHcSh6mhavW/jUbYR6ph6YQ=
+MD5-Digest: +/J1dQ+5xc8kH3CpaZmGJg==
+
+
+Name: com/csa/qks/cont/SatDataToSend.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: FbZTRvccy7MWS1MERnoaZwGK6E8=
+MD5-Digest: XO/Vnyr2ND8ohZYfyDlQSA==
+
+
+Name: com/csa/qks/serv/KepsFetcher.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: NQhtS2UwDlLhQ5jLNoFQWgIq+N0=
+MD5-Digest: Cek3Xkv3bEqXQApsthRPjw==
+
+
+Name: nullscience.txt
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: b5+DXHcSh6mhavW/jUbYR6ph6YQ=
+MD5-Digest: +/J1dQ+5xc8kH3CpaZmGJg==
+
+
+Name: com/csa/qks/serv/KepsFetcher.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: dZCgOy5/9OFx2uORUOpOJRP6kC4=
+MD5-Digest: FUSwH2FcMGOVton7c7XGHg==
+
+
+Name: com/csa/qks/cont/SerializedContainer.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: TpDdwAm4rHPJLmMz+bTBgyju56Y=
+MD5-Digest: g6sSS+cvkliE/HqisRnsSQ==
+
+
+Name: com/csa/qks/serv/Server.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: idWTfseO5bwqLZz3eOfT/Uljiw8=
+MD5-Digest: Gx47QtcI/+xWo4sYvNhYxQ==
+
+
+Name: com/csa/qks/serv/GroundStation.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: uaVW8pLWKPePi7KEv8+xYsecPY4=
+MD5-Digest: 1zDxkSYmPNyC6BeOoRnfmQ==
+
+
+Name: com/csa/qks/serv/Server.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: i5ewjFIu8urST+J59CfFS7AEtiE=
+MD5-Digest: NO2pYKpMGQnMELodzgQMBg==
+
+
+Name: com/csa/qks/serv/ClientLink.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: VyvVr3j/ecQqx/cyXmfxK1k8A6M=
+MD5-Digest: LI9eS0oh8fxL5L9Srpw9aQ==
+
+
+Name: ressources.txt
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 6KxCSJQOWFnWEADjBu5PwrhU9PE=
+MD5-Digest: 5rX+RMTndKHzDVcTnzN8aA==
+
+
+Name: com/csa/qks/cont/
+Sealed: True
+
+
+Name: com/csa/qks/serv/Sender.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 2LVU9pNRiHDaYszOVDtBjpVVcxs=
+MD5-Digest: AX5ND+29FjxjcrxXJRcq7Q==
+
+
+Name: com/csa/qks/serv/Manager.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: wp+e0Ebpr2ALBRusxnbf1NXF3qc=
+MD5-Digest: jyuyfircXItjfUpd0ViJ8w==
+
+
+Name: com/csa/qks/serv/Manager.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: /4jHJ41y4J58Cy8mhYAMMiikVdc=
+MD5-Digest: b56YOWDsNyd5X+Vk54h+RA==
+
+
+Name: nullresource.txt
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: 6KxCSJQOWFnWEADjBu5PwrhU9PE=
+MD5-Digest: 5rX+RMTndKHzDVcTnzN8aA==
+
+
+Name: com/csa/qks/serv/GroundStation.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: w+77U84esYl6Dy80A9gfXdkKX+w=
+MD5-Digest: PKNQJdfvoWGqmwyaao6vAg==
+
+
+Name: com/csa/qks/cont/SatDataToSend.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: LcIjxHysNMdcVIkkRH7zwTZFYJY=
+MD5-Digest: eVtBgBXw+jN7MclRsDFvYA==
+
+
+Name: predserver.ini
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: FeqR+mTRdq/nxfg9Zs/B0JviTtc=
+MD5-Digest: 8bTZuSs1BucpSy11hj8WRg==
+
+
+Name: com/csa/qks/serv/Satellite.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: P0d3VNsbtUoHD7Vn4NmDcX+rqs0=
+MD5-Digest: 98teXOHCh2gVikv9RAnJLg==
+
+
+Name: com/csa/qks/serv/
+Sealed: True
+
+
+Name: com/csa/qks/serv/Sender.java
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: N+JxU89l8MhQKyPPP0qZ2IbL8ME=
+MD5-Digest: CasGb9/l1XIOcAcNJKFPxg==
+
+
+Name: com/csa/qks/cont/SerializedContainer.class
+Java-Bean: False
+Digest-Algorithms: SHA MD5
+SHA-Digest: FosUy5HdoWafgOZptLg9wH/9QvA=
+MD5-Digest: h0OYO8IAEw3DmZjvd55YZg==
+
+

@@ -1,0 +1,95 @@
+// Decompiled by DJ v2.9.9.61 Copyright 2000 Atanas Neshkov  Date: 3/10/2002 20:17:36
+// Home Page : http://members.fortunecity.com/neshkov/dj.html  - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Range.java
+
+package com.csa.qks.vwr;
+
+
+// Referenced classes of package com.csa.qks.vwr:
+//            Sprite, SatSprite
+
+public class Range
+{
+
+    public Range()
+    {
+    }
+
+    public Range(SatSprite sat, double newRange)
+    {
+        update(sat, newRange);
+    }
+
+    public void calcLatLongCoords()
+    {
+        rad = 0.0D;
+        double beta = Math.cos(getRad(satLat)) * Math.sin(alpha);
+        double theta = Math.sin(getRad(satLat)) * Math.cos(alpha);
+        double beta2 = Math.sin(alpha) * Math.cos(getRad(satLat));
+        double gamma2 = Math.cos(alpha);
+        double theta2 = Math.sin(getRad(satLat));
+        double epsilon2 = getRad(satLong) + PI;
+        double PI2 = 2D * PI;
+        for(count = 0; count < numCoords; count++)
+        {
+            rangeLat[count] = Math.asin(Math.cos(rad) * beta + theta) / degToRadConv;
+            dlon = Math.atan2(Math.sin(rad) * beta2, gamma2 - theta2 * Math.sin(getRad(rangeLat[count])));
+            rangeLong[count] = ((epsilon2 - dlon) % PI2 - PI) / degToRadConv;
+            if(rangeLong[count] < -180D)
+                rangeLong[count] += 360D;
+            rad += drawPrecision;
+        }
+
+    }
+
+    public double[] getLatCoords()
+    {
+        return rangeLat;
+    }
+
+    public double[] getLongCoords()
+    {
+        return rangeLong;
+    }
+
+    private double getRad(double deg)
+    {
+        return degToRadConv * deg;
+    }
+
+    public void update(SatSprite sat, double newRange)
+    {
+        satLat = sat.getLat();
+        satLong = sat.getLong();
+        range = newRange;
+        alpha = range / 6378.1000000000004D;
+        drawPrecision = 0.5D / Math.sqrt(alpha * 100D);
+        numCoords = (int)((2D * PI) / drawPrecision);
+        rangeLong = new double[numCoords];
+        rangeLat = new double[numCoords];
+        calcLatLongCoords();
+    }
+
+    static final double PI;
+    static final double radEarth = 6378.1000000000004D;
+    static final double degToRadConv;
+    double alpha;
+    double dlon;
+    double satLat;
+    double satLong;
+    double range;
+    double rad;
+    double drawPrecision;
+    int numCoords;
+    int count;
+    double rangeLong[];
+    double rangeLat[];
+    boolean satEdge;
+
+    static 
+    {
+        PI = Math.acos(-1D);
+        degToRadConv = PI / 180D;
+    }
+}

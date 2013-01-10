@@ -1,0 +1,41 @@
+/*
+ * Timer.java
+ *
+ * Created on April 12, 2002, 10:00 PM
+ */
+
+package ca.gc.space.quicksat.ground.tracking;
+import java.awt.Component;
+/**
+ *
+ * @author  User
+ * @version 
+ */
+public class SatTimer extends Thread{
+    int speedTimeX;
+    long timeMillis;
+    long timeIncrementMillis;
+    int waitMillis = 50;
+    
+    /** Creates new Timer */
+    public Timer(int speedTimeX) {
+        timeMillis = System.currentTimeMillis();
+        setSpeed(speedTimeX);
+    }
+    
+    public long getTime() { return timeMillis; }
+    
+    public void setSpeed(int speedTimeX) {
+        this.speedTimeX = speedTimeX;
+        timeIncrementMillis = speedTimeX * waitMillis;
+        
+    }
+    
+    public int getSpeedTimeX() { return speedTimeX; }
+    synchronized public void run() {
+        this.setPriority(MAX_PRIORITY);
+        timeMillis += timeIncrementMillis;
+        try { Thread.sleep(waitMillis); } catch (InterruptedException _ex) { }
+    }
+
+}

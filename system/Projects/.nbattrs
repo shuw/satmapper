@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<attributes version="1.0">
+   <fileobject name="v2">
+      <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.ProjectDataLoader"/>
+   </fileobject>
+   <fileobject name="cpanel.xml">
+      <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.DumbXMLDataLoader"/>
+   </fileobject>
+   <fileobject name="loaders.xml">
+      <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.DumbXMLDataLoader"/>
+   </fileobject>
+   <fileobject name="services.xml">
+      <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.DumbXMLDataLoader"/>
+   </fileobject>
+   <fileobject name="repository.xml">
+      <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.DumbXMLDataLoader"/>
+   </fileobject>
+   <fileobject name="Default">
+      <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.projects.Bundle"/>
+      <attr name="NetBeansAttrAssignedLoader" stringvalue="org.netbeans.modules.projects.ProjectDataLoader"/>
+   </fileobject>
+</attributes>

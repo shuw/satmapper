@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<attributes version="1.0">
+   <fileobject name="SatMapper.java">
+      <attr name="class_dependency_java.applet.Applet" stringvalue="SatMapper"/>
+      <attr name="class_dependency_java.lang.Runnable" stringvalue="SatMapper"/>
+   </fileobject>
+   <fileobject name="SatData.java">
+      <attr name="class_dependency_java.io.Serializable" stringvalue="SatData"/>
+   </fileobject>
+</attributes>

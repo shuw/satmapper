@@ -1,0 +1,28 @@
+/*
+ * FrameThread.java
+ *
+ * Created on April 13, 2002, 11:17 AM
+ */
+
+package ca.gc.space.quicksat.ground.tracking;
+import javax.swing.*;
+//import java.awt.component;
+/**
+ *
+ * @author  User
+ * @version 
+ */
+public class FrameStarter extends Thread{
+    JFrame frame;
+    /** Creates new FrameThread */
+    public FrameStarter(JFrame frame) {
+        this.frame = frame;
+        this.start();
+    }
+    synchronized public void run() {
+        frame.show();
+        frame.setVisible(true);
+        while (true)
+            frame.repaint();
+    }
+}

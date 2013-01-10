@@ -1,0 +1,45 @@
+package ca.gc.space.quicksat.ground.tracking;
+
+
+import java.awt.Component;
+import java.io.PrintStream;
+import java.util.Enumeration;
+import java.util.Vector;
+
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.Timer;
+// Referenced classes of package com.csa.qks.vwr:
+//            SatMapper, Sprite, SatData
+
+public class Updater extends Thread implements ActionListener {
+    
+    public SatMapper applet;
+    public Updater(SatMapper applet) {
+        this.applet = applet;
+        Timer timer = new Timer(50, this);
+        //setPriority(10);
+        // start();
+    }
+    public void run() {
+        do {
+            if(applet.followSat && applet.satSelected != null)
+                applet.moveScreen(applet.getXCoord(applet.satSelected.getLong()) + Math.abs(applet.offScreenX), applet.getYCoord(applet.satSelected.getLat()) + Math.abs(applet.offScreenY));
+            SatDataToSend newData;
+            int alt;
+            int speed;
+            double lat;
+            double longi;
+            Enumeration enum;
+            for (  enum = applet.myData.getSats().elements(); enum.hasMoreElements();  applet.updatePosition( newData ) ) {
+                newData = (SatDataToSend)enum.nextElement();
+            }
+            applet.updateContacts();
+            applet.repaint();
+        } while(true);
+    }
+    
+    public void actionPerformed(java.awt.event.ActionEvent actionEvent) { applet.repaint();
+    }
+    
+}

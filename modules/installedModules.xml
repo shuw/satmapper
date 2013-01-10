@@ -1,0 +1,500 @@
+<?xml version='1.0'?>
+
+<modules>
+
+  <module
+    codenamebase="com.sun.ffj.modules.registration"
+    release="-1"  specversion="1.0"
+    base="central"
+    url="registration.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="com.sun.forte4j.modules.dd"
+    release="1"  specversion="1.0"
+    base="central"
+    url="dd2beans.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="com.sun.forte4j.modules.pointbase"
+    release="1"  specversion="1.2"
+    base="central"
+    url="pointbase.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.apache.tools.ant.module"
+    release="2"  specversion="2.2.2"
+    base="central"
+    url="ant.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.autoupdate"
+    release="1"  specversion="2.0.1"
+    base="central"
+    url="autoupdate.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.clazz"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="clazz.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.db"
+    release="1"  specversion="1.4"
+    base="central"
+    url="db.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="com.sun.forte4j.modules.dbmodel.jdbcimpl"
+    release="1"  specversion="1.2"
+    base="central"
+    url="dbschema.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.debugger.core"
+    release="2"  specversion="2.0.2"
+    base="central"
+    url="debuggerCore.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.applet"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="applet.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.debugger.debug"
+    release="1"  specversion="1.8.2"
+    base="central"
+    url="toolsDebugger.jar"
+    enabled="false"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.debugger.jpda"
+    release="1"  specversion="1.8.2"
+    base="central"
+    url="jpdaDebugger.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.editor"
+    release="1"  specversion="1.7.2"
+    base="central"
+    url="editor.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.corba.idl.editor"
+    release="1"  specversion="1.2"
+    base="central"
+    url="idl-syntax.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.filecopy"
+    release="1"  specversion="1.4"
+    base="central"
+    url="filecopy.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.html"
+    release="1"  specversion="1.7.2"
+    base="central"
+    url="html.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.httpserver"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="httpserver.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.extbrowser"
+    release="1"  specversion="0.2.2"
+    base="central"
+    url="extbrowser.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.image"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="image.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.jarpackager"
+    release="2"  specversion="1.6.2"
+    base="central"
+    url="jarpackager.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.java"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="java.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="com.sun.forte4j.persistence.internal.ui"
+    release="1"  specversion="1.2"
+    base="central"
+    url="persistence-ui.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.beans"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="beans.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.corba"
+    release="1"  specversion="1.4"
+    base="central"
+    url="corba.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.form"
+    release="2"  specversion="1.6.2"
+    base="central"
+    url="form.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.javadoc"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="javadoc.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.jndi"
+    release="1"  specversion="1.4.1"
+    base="central"
+    url="jndi.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.logger"
+    release="1"  specversion="1.2.1"
+    base="central"
+    url="loggerModule.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="com.sun.forte4j.modules.depclass"
+    release="1"  specversion="1.1"
+    base="central"
+    url="classfile.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.objectbrowser"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="browser.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.projects"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="projects.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.properties"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="properties.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.i18n"
+    release="1"  specversion="1.7.1"
+    base="central"
+    url="i18n.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.i18n.form"
+    release="2"  specversion="1.7.1"
+    base="central"
+    url="i18n-form.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.jdbc"
+    release="1"  specversion="1.2"
+    base="central"
+    url="jdbc.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.properties.syntax"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="properties-syntax.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.text"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="text.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.usersguide"
+    release="1"  specversion="1.7.3"
+    base="central"
+    url="usersguide.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.xml"
+    release="1"  specversion="1.5"
+    base="central"
+    url="xml.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.xml.editor.coloring"
+    release="1"  specversion="1.2"
+    base="central"
+    url="xml-syntax.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.openidex.util"
+    release="1"  specversion="1.7.1"
+    base="central"
+    url="openidex.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.j2eeserver"
+    release="1"  specversion="1.1.3"
+    base="central"
+    url="j2eeserver.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.utilities"
+    release="1"  specversion="1.6.2"
+    base="central"
+    url="utilities.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="com.sun.forte4j.j2ee.lib"
+    release="1"  specversion="1.0"
+    base="central"
+    url="j2eelib.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.apisupport.lite"
+    release="1"  specversion="0.1.2"
+    base="central"
+    url="apisupport-lite.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.rmi"
+    release="1"  specversion="1.3.2"
+    base="central"
+    url="rmi.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.vcscore"
+    release="1"  specversion="1.4.1.1"
+    base="central"
+    url="vcscore.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.cvsclient"
+    release="1"  specversion="1.3.2"
+    base="central"
+    url="javacvs.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.vcs.advanced"
+    release="1"  specversion="1.4.1.1"
+    base="central"
+    url="vcsgen.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.vcs.cmdline"
+    release="1"  specversion="1.7.1.1"
+    base="central"
+    url="cvs.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.web.core"
+    release="1"  specversion="1.2.2"
+    base="central"
+    url="jsp.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.web.core.syntax"
+    release="1"  specversion="1.2.2"
+    base="central"
+    url="jsp-syntax.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.web.ie"
+    release="1"  specversion="1.4"
+    base="central"
+    url="jspie.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="org.netbeans.modules.web.tomcat"
+    release="1"  specversion="1.2.2"
+    base="central"
+    url="jsp-tomcat.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+  <module
+    codenamebase="com.iplanet.iws.integ.forte"
+    release="1"  specversion="1.1"
+    base="central"
+    url="iplanet_wsae.jar"
+    enabled="true"
+    reloadable="false"
+/>
+
+</modules>
